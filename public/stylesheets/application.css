@@ -1,6 +1,6 @@
 body {
 	margin:0;
-	font-family: Arial;
+	font-family: Trebuchet "MS";
 	height: 100%;
 	background-color: RGB(201,47,47);
 }
@@ -18,6 +18,13 @@ a {
 	background: url(../images/site/background_degrade.png) repeat-x;
 }
 
+#post_it{
+	position: relative;
+	right: -630px;
+	width: 210px;
+	margin-top: 10px;
+}
+
 #left_side{
 	width: 20%;
 	height: 100%;
@@ -30,7 +37,7 @@ a {
 #tabs {	
 	position: relative;
 	margin: 0;
-	margin-top: 17px;
+	margin-top: 34px;
 	width: 44px;
 }
 
@@ -38,11 +45,11 @@ a {
 	list-style: none;
 	padding: 0;
 	margin:0;
-	margin-bottom: -18px;
+	margin-bottom: -30px;
 }
 
 .current {
-
+	z-index: -10;
 }
 
 #main_content {
@@ -52,8 +59,8 @@ a {
 }
 
 #content {
-	margin: 60px;
-	margin-top: 60px;
+	margin: 70px;
+	margin-top: 80px;
 }
 
 
@@ -70,10 +77,6 @@ a {
 
 #hights{
 	width: 100%;
-	text-align: center;
-	letter-spacing: 7px;
-	font-size: 11px;
-	color: #fff;
 	margin-top: -35px;
 }
 

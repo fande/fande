@@ -9,7 +9,7 @@
 ----------------------------------------------------------------------------------------------------*/
 
 body {
-	font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+	font: 13px/1.5 'Trebuchet MS', Helvetica, 'Liberation Sans', FreeSans, sans-serif;
 }
 
 a:focus {
@@ -87,7 +87,7 @@ fieldset {
 	margin: 0;
 	font-size: 16px;
 	font-weight: bold;
-	letter-spacing: 0.3em;
+	letter-spacing: 0.2em;
 	
 }
 
@@ -98,4 +98,11 @@ fieldset {
 
 .team_description {
 	font-size: 16px;
+}
+
+#hights{
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 11px;
+	color: #fff;
 }

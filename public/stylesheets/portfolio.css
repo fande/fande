@@ -17,7 +17,7 @@ h3{
 /* Easy Slider */
 
 #slider ul, #slider li{
-	width:780px;
+	width:680px;
 	float: left;
 	margin:0;
 	padding:0;
@@ -26,7 +26,7 @@ h3{
 
 #slider {
 	float: left;
-	width: 780px;
+	width: 680px;
 	overflow:hidden; 
 }
 
@@ -35,7 +35,7 @@ h3{
 }
 
 #description { 
-	width: 360px;
+	width: 290px;
 	margin: 20px;
 	font-size: 12px;
 }
