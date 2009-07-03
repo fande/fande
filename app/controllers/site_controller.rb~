@@ -1,0 +1,16 @@
+class SiteController < ApplicationController
+	layout 'site'
+	
+	def index
+	
+	end
+
+	def know_us
+	
+	end
+
+	def index
+	
+	end
+
+end

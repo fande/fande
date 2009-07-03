@@ -1,0 +1,92 @@
+body {
+	margin:0;
+	font-family: Arial;
+	height: 100%;
+	background-color: RGB(201,47,47);
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+#top_shaddow{
+	position: relative;
+	max-width: 100%;
+	min-width: 1000px!important;
+	height: 200px;
+	background: url(../images/site/background_degrade.png) repeat-x;
+}
+
+#left_side{
+	width: 20%;
+	height: 100%;
+	overflow: auto;
+	z-index: -10;
+	background: url(../images/site/background.png) repeat-y 100% RGB(161,38,38);
+	position: fixed;
+}
+
+#tabs {	
+	position: relative;
+	margin: 0;
+	margin-top: 17px;
+	width: 44px;
+}
+
+#tabs li{
+	list-style: none;
+	padding: 0;
+	margin:0;
+	margin-bottom: -18px;
+}
+
+.current {
+
+}
+
+#main_content {
+	margin: 0;
+	height: 600px;
+	background: url(../images/site/body.png) no-repeat;
+}
+
+#content {
+	margin: 60px;
+	margin-top: 60px;
+}
+
+
+#fande_holder{
+	position: relative;
+}
+
+
+#fande {
+	position: absolute;
+	margin-top: -345px;
+	right: -25px;
+}
+
+#hights{
+	width: 100%;
+	text-align: center;
+	letter-spacing: 7px;
+	font-size: 11px;
+	color: #fff;
+	margin-top: -35px;
+}
+
+#footer {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+#twitter {
+	position: static;
+	float: right;
+	margin: 5px;
+	margin-top: 30px;
+}

@@ -1,0 +1,45 @@
+h1{
+	font-size:20px;
+	font-weight:bold;
+	color: #333;
+}
+
+h2{
+	font-size:160%;
+	font-weight:normal;
+}	
+
+h3{
+	font-size:140%;
+	font-weight:normal;
+}		
+
+/* Easy Slider */
+
+#slider ul, #slider li{
+	width:780px;
+	float: left;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#slider {
+	float: left;
+	width: 780px;
+	overflow:hidden; 
+}
+
+#arrows {
+
+}
+
+#description { 
+	width: 360px;
+	margin: 20px;
+	font-size: 12px;
+}
+
+#description a{ 
+	color: #a74ad8;
+}

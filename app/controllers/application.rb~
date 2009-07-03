@@ -1,0 +1,10 @@
+class ApplicationController < ActionController::Base
+  helper :all
+
+  #protect_from_forgery # :secret => '35bdda8052160671a6389a05622b3bb5'
+  
+  # See ActionController::Base for details 
+  # Uncomment this to filter the contents of submitted sensitive data parameters
+  # from your application log (in this case, all fields with names like "password"). 
+  # filter_parameter_logging :password
+end

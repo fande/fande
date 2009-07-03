@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="description" content="Ruby on Rails, PostgreSQL and SEO. Fande, the brazilian software development company.">
+		<meta name="keywords" content="fande, search engine optimization, empresa fande, fande company, Johalf Farina, Lucas Engel, Gabriel Engel, ruby on rails, ruby on rails brasil, ruby on rails brazil, ruby on rails porto alegre" />
+
+		<title>Fande</title>
+		
+		<link rel="shortcut icon" href="/images/favicon.png"/>
+                
+		<%= stylesheet_link_tag '960' %>
+		<%= stylesheet_link_tag 'reset' %>
+		<%= stylesheet_link_tag 'text' %>
+		<%= stylesheet_link_tag 'application' %>
+		<%= stylesheet_link_tag 'portfolio' %>
+		<%= stylesheet_link_tag 'team' %>
+		<%= stylesheet_link_tag 'lytebox' %>
+
+		<%= javascript_include_tag 'lytebox' %>
+		<%= javascript_include_tag 'jquery.js'%>
+		<%= javascript_include_tag 'easySlider.js'%>
+	</head>
+
+	<body>
+		<div id="top_shaddow">
+
+		</div>
+
+		<div class="container_16 clearfix">
+			<div id="tabs" class="grid_1 alpha">
+				<%= render :partial => 'layouts/menu' %>
+			</div>
+
+			<div id="main_content" class="grid_15 omega">
+				<div id="content">
+					<%= yield %>
+				</div>
+			</div>
+
+			<div id="fande_holder" class="grid_15 alpha omega">
+				<%= image_tag('site/fande.png', :id => "fande") %>
+			</div>
+		</div>
+
+		<div id="hights" class="grid_16 alpha omega">
+			FANDE 2009 TODOS OS DIREITOS RESERVADOS
+		</div>	
+
+		<div id="footer" class="grid_16">
+			<div id="twitter">
+				<%= link_to image_tag('site/twitter.png'), 'https://twitter.com/fandebr', :popup => true%>	
+			</div>		
+		</div>	
+	</body>
+</html>
