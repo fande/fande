@@ -3,3 +3,4 @@ class ApplicationController < ActionController::Base
 
   #protect_from_forgery # :secret => '35bdda8052160671a6389a05622b3bb5'
 end
+
