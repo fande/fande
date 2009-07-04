@@ -2,19 +2,19 @@ development:
   adapter: postgresql
   encoding: unicode
   database: fande_development
-  username: fande
+  username: user
   password: 
 
 test:
   adapter: postgresql
   encoding: unicode
   database: fande_test
-  username: fande
+  username: user
   password: 
 
 production:
   adapter: postgresql
   encoding: unicode
   database: fande_production
-  username: fande
+  username: user
   password: 
