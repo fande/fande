@@ -1,10 +1,12 @@
 <div id="tabs">
-	<ul>
+	<ul style="z-index: 1">
 		<% [['about'], ['portfolio'], ['team']].each do |tab|  %>
+
 		<li 
-			<%= ' class="current"' if ( controller.action_name == tab[0].to_s and controller.action_name !=  'portfolio' )%>>
+			<%= controller.action_name.to_s == tab.to_s ? ' class="current"' : ' class="non_current"'%>
+		>
 			<a href="/site/<%= tab[0] %>">
-				<img src="/images/site/tabs/<%= tab[0] %><%= '_up' if controller.action_name == tab[0].to_s %>.png" align="absmiddle"/> <%= tab[1] %>
+				<img <%= controller.action_name.to_s == tab.to_s ? ' class="current"' : ' class="non_current"'%> src="/images/site/tabs/<%= tab[0] %><%= '_up' if controller.action_name == tab[0].to_s %>.png" align="absmiddle"/> <%= tab[1] %>
 			</a>
 		</li>
 		<% end %>

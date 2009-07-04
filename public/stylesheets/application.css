@@ -49,10 +49,7 @@ a {
 	margin-bottom: -30px;
 }
 
-.current {
-	z-index: -10;
-}
-.top_80 { padding-top: 80px; }
+.top_80		{ padding-top: 80px; }
 
 #main_content {
 	margin: 0;
@@ -95,3 +92,7 @@ a {
 	margin: 5px;
 	margin-top: 30px;
 }
+
+li				{ z-index: 1 }
+.non_current	{ z-index: -1; }
+.current		{ z-index: 5; }
