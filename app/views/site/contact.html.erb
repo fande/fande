@@ -1,28 +1,29 @@
-<form  method="post" class ="niceform">
-	<%= token_tag %>
-	<h4>Fale conosco</h4>
+<% form_tag() do %>
+	<div class="grid_6">
+		<h4>Fale conosco</h4>
 
-	<dl>
-		<dd>
-			<%= text_field "contact", "name" , :onfocus => "clickclear(this, 'Nome')", :onblur => "clickrecall(this, 'Nome')", :value => "Nome"%>
-		</dd>
+		<dl>
+			<dd>
+				<%= text_field "contact", "name" , :onfocus => "clickclear(this, 'Nome')", :onblur => "clickrecall(this, 'Nome')", :value => "Nome" %>
+			</dd>
 
-		<dd>
-			<%= text_field "contact", "email", :onfocus => "clickclear(this, 'E-mail')", :onblur => "clickrecall(this, 'E-mail')", :value => "E-mail"%>
-		</dd>
+			<dd>
+				<%= text_field "contact", "email", :onfocus => "clickclear(this, 'E-mail')", :onblur => "clickrecall(this, 'E-mail')", :value => "E-mail"%>
+			</dd>
 
-		<dd>
-			<%= text_field "contact", "phone", :onfocus => "clickclear(this, 'Telefone')", :onblur => "clickrecall(this, 'Telefone')", :value => "Telefone"%>
-		</dd>
+			<dd>
+				<%= text_field "contact", "phone", :onfocus => "clickclear(this, 'Telefone')", :onblur => "clickrecall(this, 'Telefone')", :value => "Telefone"%>
+			</dd>
 
-		<dd>
-			<%= text_area "contact", "message", :rows => 7, :onfocus => "clickclear(this, 'Mensagem')", 
-				:onblur => "clickrecall(this, 'Mensagem')", :value => "Mensagem", :style => "width: 250px" 
-			%>
-		</dd>
+			<dd>
+				<%= text_area "contact", "message", :rows => 7, 
+					:onfocus => "clickclear(this, 'Mensagem')", :onblur => "clickrecall(this, 'Mensagem')", 
+					:value => "Mensagem", :style => "width: 250px" %>
+			</dd>
 
-		<dd>
-			<%= submit_tag "Enviar"%>
-		</dd>
-	</dl>
-</form>
+			<dd>
+				<%= submit_tag "Enviar"%>
+			</dd>
+		</dl>
+	</div>
+<% end %>

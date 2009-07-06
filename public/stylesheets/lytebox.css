@@ -65,7 +65,7 @@
 	width: 100%; 
 	text-align: center; 
 	line-height: 0; 
-	background: url(../images/site/loading.gif) center no-repeat;
+	background: url(../images/site/portfolio/loading.gif) center no-repeat;
 }
 
 #lbDetails { 
@@ -81,5 +81,5 @@
 }
 
 #lbClose.grey { 
-	background: url(../images/site/close.png) no-repeat; 
+	background: url(../images/site/portfolio/close.png) no-repeat; 
 }
