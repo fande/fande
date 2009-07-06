@@ -1,10 +1,17 @@
 #about {
+	margin-top: 10px;
 	width: 350px;
+}
+
+#about_description {
+	font-size: 14px;
+	padding-right: 8px;
+
 }
 
 #about_title{
 	font-weight: bold;
-
+	margin-left: 10px;
 	color: #a74ad8;
 	font-size: 20px;
 }
