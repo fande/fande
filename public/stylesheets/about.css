@@ -3,6 +3,12 @@
 	width: 350px;
 }
 
+#about_description {
+	font-size: 14px;
+	padding-right: 8px;
+
+}
+
 #about_title{
 	font-weight: bold;
 	margin-left: 10px;

@@ -13519,3 +13519,1009 @@ Rendering template within layouts/site
 Rendering site/about
 Rendered layouts/_menu (2.6ms)
 Completed in 51ms (View: 45, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 02:22:25) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.7ms)
+Completed in 49ms (View: 31, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 02:22:28) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.7ms)
+Completed in 48ms (View: 42, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 192.168.1.100 at 2009-07-06 13:14:02) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (34.5ms)
+Completed in 208ms (View: 202, DB: 0) | 200 OK [http://192.168.1.101/]
+
+
+Processing SiteController#portfolio (for 192.168.1.100 at 2009-07-06 13:14:08) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.8ms)
+Completed in 143ms (View: 68, DB: 0) | 200 OK [http://192.168.1.101/site/portfolio]
+
+
+Processing SiteController#team (for 192.168.1.100 at 2009-07-06 13:14:17) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/team
+Rendered layouts/_menu (2.6ms)
+Completed in 129ms (View: 122, DB: 0) | 200 OK [http://192.168.1.101/site/team]
+
+
+Processing SiteController#contact (for 192.168.1.100 at 2009-07-06 13:15:16) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering site/contact
+Completed in 26ms (View: 20, DB: 1) | 200 OK [http://192.168.1.101/site/contact]
+
+
+Processing SiteController#about (for 192.168.1.100 at 2009-07-06 13:21:47) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.4ms)
+Completed in 42ms (View: 36, DB: 0) | 200 OK [http://192.168.1.101/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 13:33:22) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.6ms)
+Completed in 45ms (View: 38, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 192.168.1.100 at 2009-07-06 13:34:43) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.6ms)
+Completed in 44ms (View: 37, DB: 0) | 200 OK [http://192.168.1.101/]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 13:38:48) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.6ms)
+Completed in 47ms (View: 30, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#about (for 192.168.1.100 at 2009-07-06 13:42:04) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.5ms)
+Completed in 44ms (View: 38, DB: 0) | 200 OK [http://192.168.1.101/]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2009-07-06 13:53:50) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering site/contact
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://localhost/site/contact]
+
+
+Processing SiteController#team (for 127.0.0.1 at 2009-07-06 14:07:21) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/team
+Rendered layouts/_menu (3.1ms)
+Completed in 45ms (View: 38, DB: 0) | 200 OK [http://localhost/site/team]
+
+
+Processing SiteController#team (for 127.0.0.1 at 2009-07-06 14:07:31) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/team
+Rendered layouts/_menu (2.6ms)
+Completed in 42ms (View: 35, DB: 0) | 200 OK [http://localhost/site/team]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 14:07:34) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.5ms)
+Completed in 53ms (View: 31, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 15:47:45) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.6ms)
+Completed in 63ms (View: 57, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 15:54:45) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.5ms)
+Completed in 42ms (View: 36, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 15:54:50) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (3.0ms)
+Completed in 84ms (View: 74, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 15:55:03) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.6ms)
+Completed in 41ms (View: 35, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 15:55:10) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.6ms)
+Completed in 47ms (View: 41, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 15:58:25) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.7ms)
+Completed in 41ms (View: 34, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 15:59:21) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.6ms)
+Completed in 39ms (View: 33, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 15:59:44) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (4.9ms)
+Completed in 45ms (View: 39, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 15:59:53) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.6ms)
+Completed in 42ms (View: 35, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:00:03) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.7ms)
+Completed in 40ms (View: 33, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:00:12) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.5ms)
+Completed in 39ms (View: 33, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:00:22) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.7ms)
+Completed in 43ms (View: 35, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:00:48) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.8ms)
+Completed in 80ms (View: 73, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:01:48) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.6ms)
+Completed in 67ms (View: 59, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:01:55) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.6ms)
+Completed in 44ms (View: 37, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:02:00) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.6ms)
+Completed in 41ms (View: 35, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:02:21) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (23.4ms)
+Completed in 112ms (View: 106, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:02:30) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.7ms)
+Completed in 206ms (View: 199, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:02:31) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (1.1ms)
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:02:40) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (9.0ms)
+Completed in 64ms (View: 58, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:02:47) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.6ms)
+Completed in 40ms (View: 34, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:02:54) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.5ms)
+Completed in 42ms (View: 36, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:03:01) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (1.0ms)
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:03:04) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.7ms)
+Completed in 40ms (View: 34, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:03:07) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (4.7ms)
+Completed in 44ms (View: 38, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:04:37) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.5ms)
+Completed in 41ms (View: 35, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:07:09) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.5ms)
+Completed in 44ms (View: 38, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-06 16:07:38) [GET]
+
+
+ActionController::RoutingError (No route matches "/contact" with {:method=>:get}):
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:07:41) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.5ms)
+Completed in 47ms (View: 30, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:08:40) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.5ms)
+Completed in 48ms (View: 41, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:09:12) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.6ms)
+Completed in 43ms (View: 36, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:11:08) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.7ms)
+Completed in 44ms (View: 37, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:13:30) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.5ms)
+Completed in 44ms (View: 37, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:14:25) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.6ms)
+Completed in 46ms (View: 38, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:14:40) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.6ms)
+Completed in 45ms (View: 38, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:21:49) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.7ms)
+Completed in 48ms (View: 30, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:22:01) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.9ms)
+Completed in 49ms (View: 43, DB: 1) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:23:55) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.5ms)
+Completed in 65ms (View: 59, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:24:10) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.6ms)
+Completed in 50ms (View: 40, DB: 1) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:24:40) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.9ms)
+Completed in 69ms (View: 59, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:24:54) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.7ms)
+Completed in 133ms (View: 126, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 16:24:56) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.5ms)
+Completed in 43ms (View: 36, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:30:36) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.6ms)
+Completed in 48ms (View: 30, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:33:16) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.5ms)
+Completed in 48ms (View: 31, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:36:14) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.8ms)
+Completed in 48ms (View: 30, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:36:27) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.7ms)
+Completed in 71ms (View: 45, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:36:43) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (1.0ms)
+Completed in 19ms (View: 12, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:36:45) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (1.2ms)
+Completed in 23ms (View: 15, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:36:46) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (1.1ms)
+Completed in 25ms (View: 18, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:36:53) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.8ms)
+Completed in 49ms (View: 30, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:37:02) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.7ms)
+Completed in 48ms (View: 31, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:37:31) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.5ms)
+Completed in 49ms (View: 32, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:37:48) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.5ms)
+Completed in 48ms (View: 30, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:38:55) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (29.1ms)
+Completed in 84ms (View: 65, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:39:08) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.7ms)
+Completed in 47ms (View: 29, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:39:27) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.6ms)
+Completed in 59ms (View: 41, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:39:36) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (3.2ms)
+Completed in 59ms (View: 33, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:46:41) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.6ms)
+Completed in 48ms (View: 31, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:52:32) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.7ms)
+Completed in 52ms (View: 31, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 16:59:46) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.6ms)
+Completed in 47ms (View: 29, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-06 17:00:06) [GET]
+
+
+ActionController::RoutingError (No route matches "/images/site/loading.gif" with {:method=>:get}):
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-06 17:00:07) [GET]
+
+
+ActionController::RoutingError (No route matches "/images/site/close.png" with {:method=>:get}):
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/johalf/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /home/johalf/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 17:06:56) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.9ms)
+Completed in 51ms (View: 31, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 17:17:53) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.8ms)
+Completed in 50ms (View: 31, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 17:20:11) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.5ms)
+Completed in 47ms (View: 30, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 17:20:51) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (3.0ms)
+Completed in 48ms (View: 31, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 17:22:10) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.7ms)
+Completed in 47ms (View: 30, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2009-07-06 17:23:16) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering site/contact
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://localhost/site/contact]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 17:23:38) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (1.0ms)
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 17:24:16) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.6ms)
+Completed in 52ms (View: 33, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#team (for 127.0.0.1 at 2009-07-06 17:24:27) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/team
+Rendered layouts/_menu (7.6ms)
+Completed in 46ms (View: 40, DB: 1) | 200 OK [http://localhost/site/team]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 17:32:27) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.6ms)
+Completed in 49ms (View: 31, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2009-07-06 17:36:17) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering site/contact
+Completed in 19ms (View: 10, DB: 1) | 200 OK [http://localhost/site/contact]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 17:36:41) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (3.7ms)
+Completed in 55ms (View: 35, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 17:52:33) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.6ms)
+Completed in 43ms (View: 37, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 17:54:06) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.6ms)
+Completed in 53ms (View: 31, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#about (for 192.168.1.103 at 2009-07-06 18:17:01) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.6ms)
+Completed in 42ms (View: 36, DB: 1) | 200 OK [http://192.168.1.101/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 18:17:19) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.6ms)
+Completed in 45ms (View: 38, DB: 1) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#portfolio (for 192.168.1.103 at 2009-07-06 18:18:13) [GET]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.6ms)
+Completed in 54ms (View: 33, DB: 1) | 200 OK [http://192.168.1.101/site/portfolio]
+
+
+Processing SiteController#about (for 192.168.1.103 at 2009-07-06 18:18:18) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (2.9ms)
+Completed in 46ms (View: 39, DB: 0) | 200 OK [http://192.168.1.101/site/about]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 18:19:17) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.5ms)
+Completed in 49ms (View: 30, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#portfolio (for 192.168.1.103 at 2009-07-06 18:19:19) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.6ms)
+Completed in 53ms (View: 34, DB: 0) | 200 OK [http://192.168.1.101/site/portfolio]
+
+
+Processing SiteController#portfolio (for 192.168.1.103 at 2009-07-06 18:19:19) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (2.6ms)
+Completed in 54ms (View: 30, DB: 0) | 200 OK [http://192.168.1.101/site/portfolio]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 18:21:56) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (1.0ms)
+Completed in 19ms (View: 12, DB: 0) | 200 OK [http://localhost/site/portfolio]

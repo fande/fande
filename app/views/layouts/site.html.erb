@@ -33,19 +33,18 @@
 		</script>
 
 		<script type="text/javascript">
-		function clickclear(thisfield, defaulttext) {
-		if (thisfield.value == defaulttext) {
-		thisfield.value = "";
-		}
-		}
+			function clickclear(thisfield, defaulttext) {
+				if (thisfield.value == defaulttext) {
+					thisfield.value = "";
+				}
+			}
 
-		function clickrecall(thisfield, defaulttext) {
-		if (thisfield.value == "") {
-		thisfield.value = defaulttext;
-		}
-		}
+			function clickrecall(thisfield, defaulttext) {
+				if (thisfield.value == "") {
+					thisfield.value = defaulttext;
+				}
+			}
 		</script>
-
 
 	</head>
 
@@ -58,6 +57,7 @@
 			<div id="tabs" class="grid_1 alpha">
 				<%= render :partial => 'layouts/menu' %>
 			</div>
+
 			<div id="main_content" class="grid_15 omega">
 				<div id="post_it_holder" class="grid_15 alpha omega">
 					<%= link_to image_tag('site/post-it.png', :id => "post_it"), "contact", :rel => "ibox&width=500" %>
@@ -75,7 +75,6 @@
 			<div id="twitter_bird_holder" class="grid_15 alpha omega">
 				<%= link_to image_tag('site/twitter_bird.png', :id => "twitter_bird"), 'https://twitter.com/fandebr', :popup => true%>	
 			</div>
-
 		</div>
 
 		<div id="hights" class="grid_16 alpha omega">
