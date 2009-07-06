@@ -1,8 +1,8 @@
 <div id="tabs">
   <% [['about'], ['portfolio'], ['team']].each do |tab|  %>
 	  <div>
-		  <%= link_to image_tag( "site/tabs/#{tab}#{'_up' if controller.action_name == tab.to_s}.png"),
-		   "/site/#{tab}", :style => "#{controller.action_name.to_s == tab.to_s ? ' style="z-index: 10"' : ''}" %>
+		  <%= link_to image_tag( "site/tabs/#{tab}#{'_up' if controller.action_name == tab.to_s}.png"), "/site/#{tab}", 
+			:class => "#{controller.action_name.to_s == tab.to_s ? ' class="current"' : 'non_current'}" %>
 	  </div>
   <% end %>
 </div>

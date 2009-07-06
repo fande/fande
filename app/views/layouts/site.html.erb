@@ -35,7 +35,7 @@
 			</div>
 			<div id="main_content" class="grid_15 omega">
 				<div id="post_it" class="grid_16 alpha omega">
-					<%= image_tag('site/post-it.png') %>
+					<%= link_to image_tag('site/post-it.png')%>
 				</div>
 
 				<div id="content">
@@ -46,16 +46,15 @@
 			<div id="fande_holder" class="grid_15 alpha omega">
 				<%= image_tag('site/fande.png', :id => "fande") %>
 			</div>
+
+			<div id="twitter_bird_holder" class="grid_15 alpha omega">
+				<%= link_to image_tag('site/twitter_bird.png', :id => "twitter_bird"), 'https://twitter.com/fandebr', :popup => true%>	
+			</div>
+
 		</div>
 
 		<div id="hights" class="grid_16 alpha omega">
 			FANDE 2009 TODOS OS DIREITOS RESERVADOS
-		</div>	
-
-		<div id="footer" class="grid_16">
-			<div id="twitter">
-				<%= link_to image_tag('site/twitter.png'), 'https://twitter.com/fandebr', :popup => true%>	
-			</div>		
 		</div>	
 	</body>
 </html>

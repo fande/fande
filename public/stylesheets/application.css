@@ -5,15 +5,20 @@ a             { text-decoration: none; color: #000; }
 #left_side    { width: 20%; height: 100%; overflow: auto; z-index: -10; background: url(../images/site/background.png) repeat-y 100% RGB(161,38,38); position: fixed; }
 .top_80		    { padding-top: 80px; }
 #main_content { margin: 0; height: 600px; background: url(../images/site/body.png) no-repeat; }
-#content      { margin: 70px; margin-top: 80px; }
+#content      { margin: 70px; margin-top: 80px; z-index: 2;}
 #fande_holder { position: relative; }
 #fande        { position: absolute; margin-top: -345px; right: -25px; }
+
+#twitter_bird_holder { position: relative; }
+#twitter_bird        { position: absolute; margin-top: -138px; right: 140px; }
+
 #hights       { width: 100%; margin-top: -35px; }
 #footer       { width: 100%; margin: 0; padding: 0; }
 #twitter      { position: static; float: right; margin: 5px; margin-top: 30px; }
 
 /*  TABS */
-#tabs         { margin: 0; margin-top: 33px; width: 44px; z-index: 1;}
-#tabs div     { position: relative; list-style: none; padding: 0; margin:0; margin-bottom: -7px; }
-.non_current  { z-index: -10; }
-.current      { z-index: -3; }
+#tabs         { margin: 0; margin-top: 59px; width: 44px; z-index: 1;}
+#tabs div     { position: relative; list-style: none; padding: 0; margin:0; margin-bottom: -20px;}
+#tabs div a   {z-index: -1; }
+.non_current  {}
+.current      { z-index: 2; }
