@@ -14525,3 +14525,84 @@ Rendering template within layouts/site
 Rendering site/portfolio
 Rendered layouts/_menu (1.0ms)
 Completed in 19ms (View: 12, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 18:31:54) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (1.8ms)
+Completed in 48ms (View: 36, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 19:16:56) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (1.7ms)
+Completed in 32ms (View: 19, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#team (for 127.0.0.1 at 2009-07-06 19:17:21) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/team
+Rendered layouts/_menu (1.7ms)
+Completed in 29ms (View: 21, DB: 0) | 200 OK [http://localhost/site/team]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 19:18:38) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (1.7ms)
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 19:18:52) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (1.7ms)
+Completed in 29ms (View: 21, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 19:18:54) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (1.7ms)
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-07-06 19:19:00) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/about
+Rendered layouts/_menu (1.7ms)
+Completed in 30ms (View: 21, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#portfolio (for 127.0.0.1 at 2009-07-06 19:27:32) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/portfolio
+Rendered layouts/_menu (1.7ms)
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://localhost/site/portfolio]
+
+
+Processing SiteController#team (for 127.0.0.1 at 2009-07-06 19:27:35) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Rendering template within layouts/site
+Rendering site/team
+Rendered layouts/_menu (1.7ms)
+Completed in 29ms (View: 21, DB: 0) | 200 OK [http://localhost/site/team]
